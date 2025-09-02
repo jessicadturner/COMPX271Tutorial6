@@ -10,7 +10,7 @@ CREATE TABLE rooms (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
     capacity INT,
-    equipment TEXT
+    equipment VARCHAR(50);
 );
 
 CREATE TABLE bookings (
